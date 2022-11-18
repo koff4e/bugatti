@@ -1,0 +1,233 @@
+V "GNAT Lib v2021"
+A -gnatA
+A --RTS=C:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=hard
+A -mfpu=fpv4-sp-d16
+A -mcpu=cortex-m4
+A -g
+A -march=armv7e-m+fp
+P DB LC TF  SS ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV STATIC_PRIORITIES
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_TASKS=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U taskthink%b		taskthink.adb		5b8397c3 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.execution_time%s	a-exetim.adb		a-exetim.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W microbit%s		microbit.ads		microbit.ali
+W microbit.console%s	microbit-console.adb	microbit-console.ali  AD
+W microbit.iosfortasking%s  microbit-iosfortasking.adb  microbit-iosfortasking.ali
+Z mybrain%s		mybrain.adb		mybrain.ali  AD
+W mymotordriver%s	mymotordriver.adb	mymotordriver.ali  AD
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+
+U taskthink%s		taskthink.ads		f111fe7b EE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W mybrain%s		mybrain.adb		mybrain.ali
+W mymotordriver%s	mymotordriver.adb	mymotordriver.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+T 1 1
+
+D ada.ads		20220915122446 76789da1 ada%s
+D a-except.ads		20220915122448 946f3014 ada.exceptions%s
+D a-exetim.ads		20220915122448 006b9423 ada.execution_time%s
+D a-finali.ads		20220915122448 bf4f806b ada.finalization%s
+D a-interr.ads		20220915122448 bdf68b51 ada.interrupts%s
+D a-intnam.ads		20220915122448 543e27b6 ada.interrupts.names%s
+D a-reatim.ads		20220915122448 cfe92427 ada.real_time%s
+D a-retide.ads		20220915122448 081cdaa4 ada.real_time.delays%s
+D a-stream.ads		20220915122448 119b8fb3 ada.streams%s
+D a-string.ads		20220915122448 90ac6797 ada.strings%s
+D a-sttebu.ads		20220915122448 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20220915122448 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20220915122448 9eaa38c6 ada.tags%s
+D a-taside.ads		20220915122448 00e3a3f6 ada.task_identification%s
+D a-unccon.ads		20220915122446 0e9b276f ada.unchecked_conversion%s
+D hal.ads		20221110125232 2b42c80e hal%s
+D hal-gpio.ads		20221110125232 7f0c2ffe hal.gpio%s
+D hal-i2c.ads		20221110125232 0ed73138 hal.i2c%s
+D hal-spi.ads		20221110125232 fe139819 hal.spi%s
+D hal-uart.ads		20221110125232 d58316b4 hal.uart%s
+D interfac.ads		20220915122446 edec285f interfaces%s
+D microbit.ads		20221110125232 3b54a3e8 microbit%s
+D microbit-console.ads	20221110125232 0bb00661 microbit.console%s
+D microbit-iosfortasking.ads  20221110125232 7dfd8b70 microbit.iosfortasking%s
+D mybrain.ads		20221116221840 b7283d14 mybrain%s
+D mymotordriver.ads	20221116234148 331bc120 mymotordriver%s
+D nrf.ads		20221110125230 74cf72f5 nrf%s
+D nrf-device.ads	20221110125230 9c9916c4 nrf.device%s
+D nrf-gpio.ads		20221110125230 ab6d4598 nrf.gpio%s
+D nrf-rtc.ads		20221110125230 36d88130 nrf.rtc%s
+D nrf-spi_master.ads	20221110125230 a8ff49a3 nrf.spi_master%s
+D nrf-timers.ads	20221110125230 15fa58e3 nrf.timers%s
+D nrf-twi.ads		20221110125230 4881713f nrf.twi%s
+D nrf-uart.ads		20221110125230 9fa4b8b9 nrf.uart%s
+D nrf_svd.ads		20221110125230 87ba21d7 nrf_svd%s
+D nrf_svd-rtc.ads	20221110125230 57c7ffc8 nrf_svd.rtc%s
+D nrf_svd-spi.ads	20221110125230 6e2ffb69 nrf_svd.spi%s
+D nrf_svd-timer.ads	20221110125230 ba50db1c nrf_svd.timer%s
+D nrf_svd-twi.ads	20221110125230 68301534 nrf_svd.twi%s
+D nrf_svd-uart.ads	20221110125230 83bcebc8 nrf_svd.uart%s
+D system.ads		20220915122448 ad54c63c system%s
+D s-bb.ads		20220915122446 09e072ae system.bb%s
+D s-bbbopa.ads		20220915122448 f68efaf0 system.bb.board_parameters%s
+D s-bbbosu.ads		20220915122448 0f820a2a system.bb.board_support%s
+D s-bbcppr.ads		20220915122448 ac5bcd4d system.bb.cpu_primitives%s
+D s-bbinte.ads		20220915122448 c88d39da system.bb.interrupts%s
+D s-bbmcpa.ads		20220915122448 9339744a system.bb.mcu_parameters%s
+D s-bbpara.ads		20220915122448 63167d1e system.bb.parameters%s
+D s-bbthre.ads		20220915122448 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20220915122448 cd23d79e system.bb.threads.queues%s
+D s-bbtime.ads		20220915122448 ad086247 system.bb.time%s
+D s-finmas.ads		20220915122448 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20220915122448 4ff27390 system.finalization_root%s
+D s-imagei.ads		20220915122446 0d3f86a7 system.image_i%s
+D s-imgint.ads		20220915122446 bdb6f5ec system.img_int%s
+D s-interr.ads		20220915122448 d74bd991 system.interrupts%s
+D s-multip.ads		20220915122448 f33e0e35 system.multiprocessors%s
+D s-mufalo.ads		20220915122448 3dca0374 system.multiprocessors.fair_locks%s
+D s-musplo.ads		20220915122448 69fa25c4 system.multiprocessors.spin_locks%s
+D s-osinte.ads		20220915122448 229b14dd system.os_interface%s
+D s-parame.ads		20220915122448 8e90778f system.parameters%s
+D s-pooglo.ads		20220915122448 ede33ef8 system.pool_global%s
+D s-putima.ads		20220915122448 4e095881 system.put_images%s
+D s-secsta.ads		20220915122446 56a2861c system.secondary_stack%s
+D s-stalib.ads		20220915122448 472fbca8 system.standard_library%s
+D s-stoele.ads		20220915122446 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20220915122446 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20220915122448 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20220915122448 7bdda3fa system.stream_attributes%s
+D s-tasinf.ads		20220915122448 801abd01 system.task_info%s
+D s-taspri.ads		20220915122448 37f162b4 system.task_primitives%s
+D s-taskin.ads		20220915122448 989d56fd system.tasking%s
+D s-taprob.ads		20220915122448 c8fc0753 system.tasking.protected_objects%s
+D s-tasres.ads		20220915122448 0c8ef6fb system.tasking.restricted%s
+D s-tarest.ads		20220915122448 c88b6d9a system.tasking.restricted.stages%s
+D s-traent.ads		20220915122448 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20220915122446 2b077493 system.unsigned_types%s
+D taskthink.ads		20221116205312 7522024f taskthink%s
+D taskthink.adb		20221117144154 a47569b9 taskthink%b
+D ultrasonic.ads	20221110150454 8d4531d4 ultrasonic%s
+D unchconv.ads		20220915122446 ca2f9e18 unchecked_conversion%s
+G a e
+G c b b b [b taskthink 8 1 none]
+G c Z s b [thinkTK taskthink 6 9 none]
+G c Z s s [thinkTKVIP taskthink 6 4 none]
+G c Z s b [statedecision taskthink 8 14 none]
+G r p none [b taskthink 8 1 none] [getcurrentstate mymotordriver__motordriver 38 16 none]
+G r p none [b taskthink 8 1 none] [getbooleansearching mybrain__brain 10 16 none]
+G r p none [b taskthink 8 1 none] [getnewangle mybrain__brain 11 16 none]
+G r p none [b taskthink 8 1 none] [setdirection mymotordriver__motordriver 41 17 none]
+G r c none [b taskthink 8 1 none] [put_line microbit__console 43 14 none]
+G r p none [b taskthink 8 1 none] [setcurrentstate mymotordriver__motordriver 42 17 none]
+G r p none [b taskthink 8 1 none] [getmeasurementsensor1 mybrain__brain 8 16 none]
+G r p none [b taskthink 8 1 none] [setbooleansearching mybrain__brain 15 17 none]
+G r p none [thinkTK taskthink 6 9 none] [getcurrentstate mymotordriver__motordriver 38 16 none]
+G r p none [thinkTK taskthink 6 9 none] [getbooleansearching mybrain__brain 10 16 none]
+G r p none [thinkTK taskthink 6 9 none] [getnewangle mybrain__brain 11 16 none]
+G r p none [thinkTK taskthink 6 9 none] [setdirection mymotordriver__motordriver 41 17 none]
+G r c none [thinkTK taskthink 6 9 none] [put_line microbit__console 43 14 none]
+G r p none [thinkTK taskthink 6 9 none] [setcurrentstate mymotordriver__motordriver 42 17 none]
+G r p none [thinkTK taskthink 6 9 none] [getmeasurementsensor1 mybrain__brain 8 16 none]
+G r p none [thinkTK taskthink 6 9 none] [setbooleansearching mybrain__brain 15 17 none]
+G r p none [statedecision taskthink 8 14 none] [getbooleansearching mybrain__brain 10 16 none]
+G r p none [statedecision taskthink 8 14 none] [setcurrentstate mymotordriver__motordriver 42 17 none]
+G r p none [statedecision taskthink 8 14 none] [getmeasurementsensor1 mybrain__brain 8 16 none]
+G r p none [statedecision taskthink 8 14 none] [setdirection mymotordriver__motordriver 41 17 none]
+G r p none [statedecision taskthink 8 14 none] [setbooleansearching mybrain__brain 15 17 none]
+X 1 ada.ads
+16K9*Ada 20e8 79|1r6 1r25 6r6 6r30
+X 3 a-exetim.ads
+19K13*Execution_Time 111e23 79|6w10 6r34
+X 7 a-reatim.ads
+40K13*Real_Time 181e18 79|1w10 1r29
+50M9*Time<51|46M9> 79|11r17
+60I9*Time_Span<51|81I9>
+67V13*Clock{50M9}<51|134p13> 79|26s21
+71V14*"+"{50M9} 79|63s30
+127V13*Milliseconds{60I9} 79|63s32
+X 17 hal-gpio.ads
+47h9*GPIO_Point
+X 18 hal-i2c.ads
+48h9*I2C_Port
+X 19 hal-spi.ads
+48h9*SPI_Port
+X 20 hal-uart.ads
+48h9*UART_Port
+X 22 microbit.ads
+58K9*MicroBit 115e13 79|3r6 3r34 4r6 4r28
+X 23 microbit-console.ads
+32K18*Console 49e21 79|4w15 4r37
+43U14*Put_Line 79|44s13
+X 24 microbit-iosfortasking.ads
+5K18*IOsForTasking 93e27 79|3w15 3r43
+X 25 mybrain.ads
+5K9*MyBrain 24e12 78|2w6 2r19
+7w14*Brain 79|34r52 35r16 37r37 39r19 41r40 73r16 89r25 95r16
+8V16 GetMeasurementSensor1{80|5I9} 79|89s31
+10V16 GetBooleanSearching{boolean} 79|34s58 73s22
+11V16 GetNewAngle{integer} 79|35s22 37s43 39s25 41s46
+15U17 SetBooleanSearching 79|95s22
+X 26 mymotordriver.ads
+4K9*MyMotorDriver 50e18 78|1w6 1r25 79|2w6 2r25
+6n24*Forward{6E9} 79|91r41
+6n33*LeftRotate{6E9} 79|36r41
+6n45*RightRotate{6E9} 79|40r41
+6n58*Stop{6E9} 79|93r41
+7E9*Statemachine 7e48 78|8r37 79|69r37
+7n26*Stop{7E9} 79|34r43 72r15 74r44 94r44
+7n32*Rotate{7E9} 79|76r44 79r15 81r44
+7n40*Forward{7E9} 79|84r44 88r15 90r44
+34w14*MotorDriver 79|34r13 36r16 40r16 47r24 74r16 76r16 81r16 84r16 90r16
+. 91r16 93r16 94r16
+38V16 GetCurrentState{7E9} 79|34s25 47s36
+41U17 SetDirection 79|36s28 40s28 91s28 93s28
+42U17 SetCurrentState 79|74s28 76s28 81s28 84s28 90s28 94s28
+X 51 s-bbtime.ads
+46M9*Time
+81I9*Time_Span<long_long_integer>
+X 56 s-interr.ads
+97U14*Install_Restricted_Handlers_Sequential 98i<c,__gnat_attach_all_handlers>22
+X 64 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 72 s-taskin.ads
+398V13*Get_Sec_Stack{64|46P9} 399i<c,__gnat_get_secondary_stack>22
+X 75 s-tarest.ads
+232U14*Activate_All_Tasks_Sequential 233i<c,__gnat_activate_all_tasks>22
+X 78 taskthink.ads
+4K9*TaskThink 10l5 10e14 79|8b14 101l5 101t14
+6t9*Think 79|10b13 67l8 67t13
+8U14*StateDecision 8>29 8=51 8=84 79|47s10 69b14 99l8 99t21
+8e29 state{26|7E9} 79|69b29 71r12
+8i51 RotationCycles{integer} 79|69b51 80r29
+8i84 ResetTimer{integer} 79|69b84 80r16 82m16 82r30 85m16
+X 79 taskthink.adb
+11m7 myClock{7|50M9} 26m10 63r22
+12i7 RotationDuration{integer} 37m16 38r34 41m16 42r34 44r45
+13i7 ResetTimer{integer} 47m69 47r69
+14i7 RotationCycles{integer} 38m16 42m16 47m53 47r53
+15i7 Period{integer} 38r51 42r51
+X 80 ultrasonic.ads
+5I9*Distance_cm<short_integer>
+

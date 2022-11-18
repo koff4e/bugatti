@@ -1,0 +1,29 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\kevin\Documents\git-repos\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\tasking_project_sense_think_act\tasking_project_sense_think_act.gpr
+20221110125232 b355a1af7a91428519063e5d2a0fc319
+C:\Users\kevin\Documents\git-repos\Ada_Drivers_Library\boards\MicroBit_v2\microbit_v2_full.gpr
+20221110125232 98f5dfe1b4b12326f69d6050d6aa4084
+[BOUND OBJECT FILES]
+C:\Users\kevin\Documents\git-repos\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\tasking_project_sense_think_act\obj\mymotordriver.o
+C:\Users\kevin\Documents\git-repos\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\tasking_project_sense_think_act\obj\taskact.o
+C:\Users\kevin\Documents\git-repos\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\tasking_project_sense_think_act\obj\ultrasonic.o
+C:\Users\kevin\Documents\git-repos\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\tasking_project_sense_think_act\obj\mybrain.o
+C:\Users\kevin\Documents\git-repos\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\tasking_project_sense_think_act\obj\tasksense.o
+C:\Users\kevin\Documents\git-repos\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\tasking_project_sense_think_act\obj\taskthink.o
+C:\Users\kevin\Documents\git-repos\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\tasking_project_sense_think_act\obj\mycontroller.o
+C:\Users\kevin\Documents\git-repos\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\tasking_project_sense_think_act\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\kevin\Documents\git-repos\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\tasking_project_sense_think_act\obj\
+-LC:\Users\kevin\Documents\git-repos\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\tasking_project_sense_think_act\obj\
+-LC:\Users\kevin\Documents\git-repos\Ada_Drivers_Library\boards\MicroBit_v2\obj\full_lib_Debug\
+-LC:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\adalib\
+-static
+-static-libgcc
+C:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\adalib\libgnarl.a
+C:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\adalib\libgnat.a
